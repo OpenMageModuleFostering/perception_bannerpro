@@ -16,7 +16,8 @@ class Perception_Bannerpro_Block_Bannerpro extends Mage_Core_Block_Template
     public function getCollection() {
     	$collection = Mage::getModel('bannerpro/bannerpro')->getCollection()
     					->addStoreFilter(Mage::app()->getStore()->getStoreId())
-    					->addFieldToFilter('status','1');
+    					->addFieldToFilter('status','1')
+						->setOrder('sorting_order','ASC');
     	return $collection;
     }
 }
