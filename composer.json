@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Perception_Bannerpro",
+    "name": "OpenMageModuleFostering\/Perception_Bannerpro",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "All in One Banner Pro Extension allows you to manage unlimited banners with list of sliding effects with attractive and effective look of site Home page.",
     "authors": [
-    {
-        "name": "Perception",
-        "email": "tarang@perceptionsystem.com"
-    }
-],
+        {
+            "name": "Perception",
+            "email": "tarang@perceptionsystem.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
